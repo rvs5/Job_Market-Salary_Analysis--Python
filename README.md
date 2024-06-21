@@ -55,7 +55,7 @@ df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.no
 
 To find the most demanded skills for the top 3 most popular data roles. I filtered out those positions by which ones were the most popular, and got the top 5 skills for these top 3 roles. This query highlights the most popular job titles and their top skills, showing which skills I should pay attention to depending on the role I'm targeting.
 
-View my notebook with detailed steps here: [Skill_demand.ipynb](Project\Skill_demand.ipynb)
+View my notebook with detailed steps here: [Skill_demand.ipynb](All_Analysis/Skill_demand.ipynb)
 
 ### Visualize Data
 
@@ -83,7 +83,7 @@ plt.show()
 
 ### Results
 
-![Visualization of Top Skills](Images\skilldemand.png)
+![Visualization of Top Skills](Images/skilldemand.png)
 
 ### Insights
 
@@ -114,7 +114,7 @@ plt.show()
 
 ### Results 
 
-![Trending Top skills for Data Analyst in US](Images\Skilltrend.png)
+![Trending Top skills for Data Analyst in US](Images/Skilltrend.png)
 
 ### Insights:
 
@@ -171,7 +171,7 @@ plt.show()
 
 Here's the breakdown of the highest-paid & most in-demand skills for data analysts in the US:
 
-![](Images\skillanalysis1.png)
+![](Images/skillanalysis.png)
 
 #### Insights
 
